@@ -1,0 +1,24 @@
+/* Điều chỉnh kiểu cho menu ngang */
+.horizontal-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #333;
+}
+
+.horizontal-menu li {
+    margin: 0;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.horizontal-menu li:hover a {
+    background-color: #555;
+}
